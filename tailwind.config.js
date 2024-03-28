@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'greenery': '#16a34a',
+        'meadows': '#22c55e',
+        'shadow': '#344054',
+        'shade': '#98A2B3'
+      }
+    },
   },
   plugins: [],
 }

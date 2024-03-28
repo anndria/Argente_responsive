@@ -6,4 +6,221 @@
     #profile {
         display: none;
     }
+
+    #mcbook2 {
+        display: none;
+    }
+
+    #mcbook1 img {
+        width: 80%;
+        height: 200%;
+    }
+
+    #logo1, #logo2, #logo3,
+    #logo4, #logo5 {
+        display: none;
+    }
+
+    #dsk1, #dsk2 {
+        display: none;
+    }
+
+    #dsk-p {
+        display: none;
+    }
+
+    #content2 img {
+        display: none;
+    }
+
+    #minimize1 img {
+        margin-inline-start: 150px;
+    }
+
+    #add1 img {
+        margin-inline-start: 105px;
+    }
+
+    #add2 img {
+        margin-inline-start: 39px;
+    }
+
+    #add3 img {
+        margin-inline-start: 206px;
+    }
+
+    #add4 img {
+        margin-inline-start: 65px;
+    }
+
+    #desktop-section5 {
+        display: none;
+    }
+
+    #section6-mb {
+        background: #F9FAFB;
+        border-radius: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section6-dsk {
+        display: none;
+    }
+
+    #section7-dsk {
+        display: none;
+    }
+
+    #btn {
+        display: none;
+    }
+}
+
+@media (min-width: 640px) {
+    .ms-3.mt-5,
+    .ms-3.mt-2 {
+        display: flex;
+        justify-content: center;
+        /*margin: 0.5rem 1rem;*/
+        width: 100%
+    }
+
+    .ms-3.mt-5,
+    .ms-3.mt-2 {
+        flex-direction: row !important;
+    }
+
+    /*.ms-3.mt-5,
+    .ms-3.mt-2 {
+        justify-content: center;
+        width: fit-content;
+        padding: 1rem 2rem;
+        width: 100px;
+    }*/
+
+    #btns button {
+        justify-content: center;
+        padding: 1rem 2rem;
+        width: 150px;
+    }
+
+    #btn button {
+        justify-content: center;
+        padding: 1rem 2rem;
+        width: 190px;
+    }
+
+    #demo {
+        order: 0;
+    }
+    
+    #sign-up {
+        order: 1;
+    }
+}
+
+
+@media (min-width: 640px) {
+    #mcbook2 img {
+        background-image: url("../img/Macbook\ Pro\ 16\ mockup2.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    #mcbook1 img{
+        display: none;
+    }
+
+    #layers, #circooles, #hourglass {
+        display: none;
+    }
+
+    #desc1 p {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+
+    #grid1 img {
+        align-items: center;
+    }
+
+    #mbl {
+        display: none;
+    }
+
+    #mb-p {
+        display: none;
+    }
+
+    #content1 img {
+        display: none;
+    }
+
+    #dskbtn-3 {
+        margin-top: 74px;
+    }
+
+    #mobile-section5 {
+        display: none;
+    }
+
+    #minimize-desktop img {
+        margin-inline-start: 700px;
+    }
+
+    #add-desktop img {
+        margin-inline-start: 715px;
+    }
+
+    #add-desktop2 img {
+        margin-inline-start: 662px;
+    }
+
+    #add-desktop3 img {
+        margin-inline-start: 598px;
+    }
+
+    #add-desktop4 img {
+        margin-inline-start: 768px;
+    }
+
+    #add-desktop5 img {
+        margin-inline-start: 630px;
+    }
+
+    #divider {
+        position: relative;
+        margin-inline-end: 105px;
+    }
+
+    #section6-mb {
+        display: none;
+    }
+
+    #section7-mb {
+        display: none;
+    }
+    
+    #btn-sec1, #btn-sec2 {
+        display: none;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        align-items: center;
+        margin-inline-start: 5rem;
+    }
+
+    #footer-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    #copyright {
+        margin-top: 35px;
+    }
 }
